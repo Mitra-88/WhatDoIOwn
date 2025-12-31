@@ -1,14 +1,14 @@
 [
   {
-    "modid": "${modid}",
-    "name": "Xample Mod",
-    "description": "A mod that is used as an example.",
-    "version": "${version}",
-    "mcversion": "${mcversion}",
-    "url": "https://github.com/romangraef/Forge1.8.9Template/",
+    "modid": "whatdoiown",
+    "name": "WhatDoIOwn",
+    "description": "",
+    "version": "1.2",
+    "mcversion": "1.8.9",
+    "url": "",
     "updateUrl": "",
     "authorList": [
-      "You"
+      ""
     ],
     "credits": "",
     "logoFile": "",
