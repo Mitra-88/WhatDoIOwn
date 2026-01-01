@@ -123,6 +123,9 @@ tasks.shadowJar {
             println("Copying dependencies into mod: ${it.files}")
         }
     }
+
+    // If you want to include other dependencies and shadow them, you can relocate them in here
+    fun relocate(name: String) = relocate(name, "$baseGroup.deps.$name")
 }
 
 tasks.assemble.get().dependsOn(tasks.remapJar)
